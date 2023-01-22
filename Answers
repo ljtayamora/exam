@@ -1,0 +1,10 @@
+1.Implicit Wait - wait for a fixed duration of time before an exception is thrown.
+	E.g. Delay(5)
+Explicit Wait - wait (dynamic) until a certain condition occurs before Webdriver interacts with the locator.
+	E.g. Wait For Element Visible, Wait For Element Clickable, Wait For Element Present
+
+2.
+3. //*[@id="modeOfPayment"]/div/div/div[1]/input
+3.id("modeofPayment")/div[@class="mode-of-payment"]/div[@class="mode-of-payment-options"]/div[@class="mode-of-payment-option ng-star-inserted active"]/p[@class="mode-of-payment-label"]
+4.
+5.
