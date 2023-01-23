@@ -3,6 +3,17 @@
 Explicit Wait - wait (dynamic) until a certain condition occurs before Webdriver interacts with the locator.
 	E.g. Wait For Element Visible, Wait For Element Clickable, Wait For Element Present
 
-2.
+2. Explicit Wait 
+	E.g.
+		...
+		WebUI.waitForElementClickable(findTestObject(null), 3)
+		WebUI.setText(findTestObject('Object Repository/Page_Free Business Website Consultation  Stoodeo/input__email'), 'Test1@mailinator.com')
+		
+		WebUI.waitForElementClickable(findTestObject(null), 3)
+		WebUI.setText(findTestObject('Object Repository/Page_Free Business Website Consultation  Stoodeo/input__phone'), '+639120000000')
+   Implicit Wait
+   	E.g.
+
+3. id("modeofPayment")/div[@class="mode-of-payment"]/div[@class="mode-of-payment-options"]/div[@class="mode-of-payment-option ng-star-inserted active"]/p[@class="mode-of-payment-label"][1]
 3. //*[@id="modeOfPayment"]/div/div/div[1]/input
-3.id("modeofPayment")/div[@class="mode-of-payment"]/div[@class="mode-of-payment-options"]/div[@class="mode-of-payment-option ng-star-inserted active"]/p[@class="mode-of-payment-label"]
+
